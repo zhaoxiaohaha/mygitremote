@@ -1,3 +1,6 @@
+
+1、正确关闭jar包运行的黑窗口：不要直接关闭黑窗口，而是在jar包运行的黑窗口  ctrl+c，再Y，
+2、当黑窗口已经意外关闭，jar包还在运行的时候，想终止运行的话
 进入cmd
 根据端口号查询该jar包运行的进程pid ：netstat -ano | findstr 8001
 在根据查出的进程pid终止进程：taskkill /pid 2000 /F
