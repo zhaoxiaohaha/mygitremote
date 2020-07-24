@@ -1,0 +1,8 @@
+进入cmd
+根据端口号查询该jar包运行的进程pid ：netstat -ano | findstr 8001
+在根据查出的进程pid终止进程：taskkill /pid 2000 /F
+
+(上述8001 是我要关闭的jar包的运行端口号
+2000 是这个jar包运行时对应的进程pid
+根据自己的情况，更改相应的对 pid)
+https://blog.csdn.net/qq_40680190/article/details/79962869
